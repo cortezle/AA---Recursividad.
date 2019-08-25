@@ -11,7 +11,7 @@ int potencia(int x, int n){
         return potencia(x,n-1) * x;
 }
 
-int sum(int a[], int i, int m)
+int menor(int a[], int i, int m)
 {
     int length = m;
     //n tiene que ser la longitud del arreglo -1
