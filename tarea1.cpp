@@ -42,6 +42,7 @@ int main(){
     int lista1[]={4,32,2};
     cout<<potencia(2,0)<<endl;
     cout<<potencia(3,3)<<endl;
+    int leng = sizeof(lista1)/sizeof(int);
     cout<<sum(lista1,0,leng)<<endl;
     
 
